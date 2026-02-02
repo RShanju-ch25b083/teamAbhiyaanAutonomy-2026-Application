@@ -161,7 +161,7 @@ Pros: Bus topology , two wires ( CANH, CANL), tolerant to noise , error detectio
 <h2> <b> SIMULATION LINKS </b></h2>
 https://www.tinkercad.com/things/erwICdZkVpA-abhiyaan2/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=c8vVt2wSSZkv-X_DKJlkScPARwrNJrRmhH60th8sm7Q
 https://www.tinkercad.com/things/8mVY30VmV38-abhiyaan/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=c7bHuLZ_mh3UdyWbKgUoOqgCoMYWGOkaUBIicBPE6DI <br>
-I wrote the code , but the simulation didn't work.
+I wrote the code , but the simulation doesn't work.
 
 <h2><b> Wireless protocols</b></h2>
 *RF <br>
