@@ -1,3 +1,15 @@
+<h1> <b>Introduction </b></h1>
+<b> Name </b>: R SHANJU <br>
+<b> Roll No </b>: CH25B083<br>
+<b> WHY ABHIYAAN? </b> : <br>
+Cool Team <br>
+Great projects<br>
+No PORS <br>
+<b> Relevant things: </b> <br>
+*Attended PCB Design Shasstra Workshop <br>
+*Participated in Reverse Engineering Shaastra competition <br>
+
+
 <h1><B> Q1 </B></h1>
 <h2><b>TASK A Q1</b></h2>
 (a) Feed Forward Control:<br>
