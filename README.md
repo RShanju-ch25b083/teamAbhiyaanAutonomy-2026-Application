@@ -172,9 +172,21 @@ I wrote the code , but the simulation doesn't work.
 *IR <br>
 * NRF <br>
 * NCF <br>
-All these are protocols that are used in embedded devices. RF for instance, is the technology responsible for Wifi and Bluetooth. But, since RFs has a wide range of frequences, it usually gets interfered by other devices , making it highly susceptible to noise. RF has a long range, high data tranfer speed but is highly susceptible to noise.
+All these are protocols that are used in embedded devices. RF for instance, is the technology responsible for Wifi and Cellullar networks. But, since RFs has a wide range of frequences, it usually gets interfered by other devices , making it highly susceptible to noise. RF has a long range, high data tranfer speed but is highly susceptible to noise.
 Wifi's underlying technology is RF, Wifi also faces the problems faced by RF. Bluetooth is a short range communication protocol, low data transfer speeds and it is susceptible to noise.
-Zigbee and Z-waves usually used when there are multiple nodes in the system, short range . Used in smart home devices. IR , again short range, less susceptibe to noise, and firect line of sight communication. In this case, it is best to use "Wifi" , because all the short ranges can't satisfy the range and all the others that have longer ranges are beyond our requirement. 
+Zigbee and Z-waves  are usually used when there are multiple nodes in the system, short range . Used in smart home devices. IR , again short range, less susceptibe to noise, and direct line of sight communication (making it less usable) . In this case, it is best to use "Wifi" , because all the short ranges can't satisfy the range and all the others that have longer ranges are beyond our requirement. 
+
+<h2> <b> REFERENECES:</b></h2>
+Source: Altium https://share.google/wL8GfEMuJNEOGgKoL<br>
+Intro to Arduino Programming.pdf https://share.google/fqGr6IcAfXLxWtYzZ<br>
+GitHub - Mahmoud-Ibrahim-93/Communication-between-2-Microcontrollers: CSE4 Lab https://share.google/mAT2zQeaJzUa6mzv1<br>
+I2C vs SPI vs UART – Introduction and Comparison of their Similarities and Differences - Total Phase https://share.google/6TXs2LGMP0T4y9Q2t<br>
+Communication protocols: UART, I2C and SPI - HiBit https://share.google/gdI3UzkiZ2xWe0kcq<br>
+An Overview of UART Protocols | Ezurio https://share.google/tf4UM9t2gSwXcYRoV<br>
+Sending data noisy environment - Other Hardware / General Electronics - Arduino Forum https://share.google/K6I5Ge6Vsxwmv6cKo<br>
+Best communication between two microcontrollers : r/embedded https://share.google/QKzzzE0G5RENsJoB5<br>
+Source: YouTube https://share.google/b3I9kbGxfTb7Dke5o<br>
+UART between two microcontrollers | All About Circuits https://share.google/mktdqW4Cz25Ot8CsH<br>
 
 
 
