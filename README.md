@@ -164,7 +164,6 @@ https://www.tinkercad.com/things/8mVY30VmV38-abhiyaan/editel?returnTo=https%3A%2
 I wrote the code , but the simulation doesn't work.
 
 <h2><b> Wireless protocols</b></h2>
-*RF <br>
 *Wifi <br>
 *Zigbee <br>
 *Z Wave <br>
@@ -172,9 +171,13 @@ I wrote the code , but the simulation doesn't work.
 *IR <br>
 * NRF <br>
 * NCF <br>
-All these are protocols that are used in embedded devices. RF for instance, is the technology responsible for Wifi and Cellullar networks. But, since RFs has a wide range of frequences, it usually gets interfered by other devices , making it highly susceptible to noise. RF has a long range, high data tranfer speed but is highly susceptible to noise.
-Wifi's underlying technology is RF, Wifi also faces the problems faced by RF. Bluetooth is a short range communication protocol, low data transfer speeds and it is susceptible to noise.
-Zigbee and Z-waves  are usually used when there are multiple nodes in the system, short range . Used in smart home devices. IR , again short range, less susceptibe to noise, and direct line of sight communication (making it less usable) . In this case, it is best to use "Wifi" , because all the short ranges can't satisfy the range and all the others that have longer ranges are beyond our requirement. 
+All these are protocols that are used in embedded devices. RF for instance, is the technology responsible for Wifi and Cellullar networks. RF communication can provide long range, high data rates, but it is susceptible to interference because many devices share the same frequency baand .So, RF has a long range, high data tranfer speed but is highly susceptible to noise.<br>
+
+Wifi's underlying technology is RF. Wifi provides high data ratesm long range (within 100 m) and wasy internet connectivity. However, it consumes high power abd nay suffer from congestion and interference in crowded environments.<br>
+ Bluetooth is a short range communication protocol (approc.10 m), low data transfer speeds and it is susceptible to noise.<br>
+Zigbee is designed for low powerm low data rate sensor networks. It supports mesh networking and can connect muliple nodes effeciently. Commonly used in smart home systems.<br>
+Z-wave is similar to Zigbee , but operates at lower frequency, reducing interference. It provides reliable short range communication and is used in home automation.<br>
+ IR , again short range, less susceptibe to noise but requires direct line of sight (making it less usable) . In this case, it is best to use "Wifi" , because all the short ranges can't satisfy the range and all the others ,which have longer ranges are beyond our requirement. 
 
 <h2> <b> REFERENECES:</b></h2>
 Source: Altium https://share.google/wL8GfEMuJNEOGgKoL<br>
