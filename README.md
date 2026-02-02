@@ -56,6 +56,12 @@ https://colab.research.google.com/drive/18Xy-2NBZ2KHjzY68AeUTxTbdUbRl1IzM?usp=sh
 https://colab.research.google.com/drive/1D_jXjcwNX5t0EuK1DQT2Zc0uS6b2Gd4c?usp=sharing<br>
 
 As one<b> increases the proportional gain, the system becomes faster </b>, but care must be taken not make the system unstable. Once P has been set to obtain a desired fast response, the integral term is increased to stop the oscillations. <b> The integral term reduces the steady state error, but increases overshoot.</b> Some amount of overshoot is always necessary for a fast system so that it could respond to changes immediately. The integral term is tweaked to achieve a minimal steady state error. Once the P and I have been set to get the desired fast control system with minimal steady state error, the derivative term is increased until the loop is acceptably quick to its set point. Increasing derivative term decreases overshoot and yields higher gain with stability but would cause the system to be highly sensitive to noise.<br>
+Observation: <br>
+As ki increases, the frequency looks like it reduces for position control. 
+The main reason this happens is because position plant/ system already has an integrator and when we add another Integrator Controller, the phase change produced will be around -180°(2 integrators)  , which changes the polarity of the system, reduces damping, slows dynamics and  reduces the frequency of the system. (plots are in the Google collab) <br> 
+The velocity plant will have a phase change of -90° ( 1 integrator) , and therefore, the value of ki isn't as high as it was in the case of the position plant. And that's why visually , velocity vs time graph looks more stable than the position vs time graph from the same values of kp,ki,kd.<br>
+<br> The Ziegler-Nichols method is a method that comes in handy, whenever the error differences are not linear and when "trialandError" isn't really helping.  This method is similar to the "trialandError" method  , but by figuring out kp (or any of the other constant values) we can get the other values. <br>
+
 
 <h2><b>TASK B Q2 </b></h2>
 LINK TO GOOGLE NOTEBOOK: <BR>
