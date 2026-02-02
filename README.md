@@ -61,6 +61,7 @@ As ki increases, the frequency looks like it reduces for position control.
 The main reason this happens is because position plant/ system already has an integrator and when we add another Integrator Controller, the phase change produced will be around -180°(2 integrators)  , which changes the polarity of the system, reduces damping, slows dynamics and  reduces the frequency of the system. (plots are in the Google collab) <br> 
 The velocity plant will have a phase change of -90° ( 1 integrator) , and therefore, the value of ki isn't as high as it was in the case of the position plant. And that's why visually , velocity vs time graph looks more stable than the position vs time graph from the same values of kp,ki,kd.<br>
 <br> The Ziegler-Nichols method is a method that comes in handy, whenever the error differences are not linear and when "trialandError" isn't really helping.  This method is similar to the "trialandError" method  , but by figuring out kp (or any of the other constant values) we can get the other values. <br>
+for a PID Controller, kp= 0.60kc and ki=0.5Pc, kd= Pc/8 ;<br> where kc= critical gain and Pc= Period of Oscillation<br>
 
 
 <h2><b>TASK B Q2 </b></h2>
