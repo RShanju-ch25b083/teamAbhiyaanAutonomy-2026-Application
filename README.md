@@ -4,7 +4,7 @@
 <b> WHY ABHIYAAN? </b> : <br>
 Cool Team <br>
 Great projects<br>
-No PORS <br>
+<b> PORS </b> : None <br>
 <b> Relevant things: </b> <br>
 *Attended PCB Design Shasstra Workshop <br>
 *Participated in Reverse Engineering Shaastra competition <br>
