@@ -54,6 +54,9 @@ LINK TO GOOGLE NOTEBOOK:<br>
 https://colab.research.google.com/drive/18Xy-2NBZ2KHjzY68AeUTxTbdUbRl1IzM?usp=sharing<br>
 *Position Control and Tuning<br>
 https://colab.research.google.com/drive/1D_jXjcwNX5t0EuK1DQT2Zc0uS6b2Gd4c?usp=sharing<br>
+
+As one<b> increases the proportional gain, the system becomes faster </b>, but care must be taken not make the system unstable. Once P has been set to obtain a desired fast response, the integral term is increased to stop the oscillations. <b> The integral term reduces the steady state error, but increases overshoot.</b> Some amount of overshoot is always necessary for a fast system so that it could respond to changes immediately. The integral term is tweaked to achieve a minimal steady state error. Once the P and I have been set to get the desired fast control system with minimal steady state error, the derivative term is increased until the loop is acceptably quick to its set point. Increasing derivative term decreases overshoot and yields higher gain with stability but would cause the system to be highly sensitive to noise.<br>
+
 <h2><b>TASK B Q2 </b></h2>
 LINK TO GOOGLE NOTEBOOK: <BR>
 https://colab.research.google.com/drive/1ZdIQa1U8x3bAU8oKOSm8XI_kqtKOjtg2?usp=sharing
